@@ -1,0 +1,17 @@
+{
+	"name": "fr4xx.me",
+	"version": "1.0.0",
+	"description": "my personal website portfolio!",
+	"main": "index.js",
+	"scripts": {
+		"watch": "sass --watch src/scss/style.scss:src/css/style.css",
+		"live": "live-server --port=7777",
+		"start": "npm run watch & npm run live"
+	},
+	"author": "fr4xx",
+	"license": "ISC",
+	"devDependencies": {
+		"live-server": "^1.2.2",
+		"sass": "^1.81.0"
+	}
+}
