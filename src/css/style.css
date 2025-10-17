@@ -1,3 +1,59 @@
+@font-face {
+  font-family: TheTypingMadman;
+  src: url(media/The_Typing_of_a_Madman.ttf);
+}
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .header__h1 {
+  font-family: TheTypingMadman;
+  font-weight: 400;
+  text-align: center;
+}
+body .header__h1--wing {
+  transform: translateY(10px);
+}
+body .header__banner {
+  max-width: 100%;
+}
+body .divider img {
+  margin: 24px 0;
+  width: 100%;
+}
+body .main__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+body .main__links--link {
+  padding: 6px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+body .main__links--link:hover {
+  color: black;
+  scale: 1.1;
+  background-color: #fff;
+  box-shadow:
+    0 0 6px 6px #d4d4d4;
+  transition: 0.5s;
+}
+
+body .main__links--divider {
+  margin: 0 16px;
+}
 
 
-/*# sourceMappingURL=style.css.map */
+
